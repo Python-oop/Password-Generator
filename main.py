@@ -47,7 +47,7 @@ def create_password():
 
 
     password = ''.join(password_list)
-    password_entry.insert(0, password)
+    password_entry.inser4t(0, password)
     pyperclip.copy(password)
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
